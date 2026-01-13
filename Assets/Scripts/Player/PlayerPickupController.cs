@@ -124,10 +124,12 @@ public class PlayerPickupController : MonoBehaviourPun
         }
     }
 
+#if UNITY_EDITOR
     // Opcional: Para dibujar el radio de interacción en el editor y ver qué estamos tocando
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, pickupRadius);
     }
+#endif
 }

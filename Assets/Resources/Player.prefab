@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 5458556089246203908}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75,7 +75,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: d93107a80b26dce42aa867fe16f6730d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -179,7 +179,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   handPoint: {fileID: 8221822910654305075}
-  throwForce: 10
+  throwForce: 0
 --- !u!114 &3154466237887142574
 MonoBehaviour:
   m_ObjectHideFlags: 0

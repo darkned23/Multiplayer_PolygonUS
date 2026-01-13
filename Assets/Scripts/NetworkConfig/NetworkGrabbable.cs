@@ -4,6 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(PhotonView))]
 [RequireComponent(typeof(Rigidbody))]
+[RequireComponent (typeof(PhotonTransformView))]
 [RequireComponent(typeof(PhotonRigidbodyView))]
 public class NetworkGrabbable : MonoBehaviourPun, IPunOwnershipCallbacks
 {
